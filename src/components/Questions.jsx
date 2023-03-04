@@ -53,7 +53,7 @@ function Question() {
                 <Container>
                     <Row className="justify-content-center my-3">
                         <Col xs={12} md={8}>
-                            <h3 className="text-center" style={{color:'white'}}>Answer the question given below:</h3>
+                            <h3 className="text-center" style={{color:'white'}}>Let's Solve Buddy ! </h3>
                             {loading && <Spinner />}
                             {error && <ErrorDisplay error={error} />}
                             {data && (
